@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/defHeight"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:gravity="right|center"
+        android:text="@string/strRes"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn7"
+            android:textSize="@dimen/defTextSize" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn8"
+            android:textSize="@dimen/defTextSize" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn9"
+            android:textSize="@dimen/defTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn4"
+            android:textSize="@dimen/defTextSize"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn5"
+            android:textSize="@dimen/defTextSize"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn6"
+            android:textSize="@dimen/defTextSize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn1"
+            android:textSize="@dimen/defTextSize"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn2"
+            android:textSize="@dimen/defTextSize"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn3"
+            android:textSize="@dimen/defTextSize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="0.9"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btn0"
+            android:textSize="@dimen/defTextSize" />
+
+        <Button
+            android:id="@+id/btnCom"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/defHeight"
+            android:layout_weight="0.1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/string_btnCom"
+            android:textSize="@dimen/defTextSize" />
+
+    </LinearLayout>
+</LinearLayout>

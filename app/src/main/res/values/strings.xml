@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Homework_3_1_1</string>
+    <string name="string_btn7">7</string>
+    <string name="string_btn8">8</string>
+    <string name="string_btn9">9</string>
+    <string name="string_btn4">4</string>
+    <string name="string_btn5">5</string>
+    <string name="string_btn6">6</string>
+    <string name="string_btn1">1</string>
+    <string name="string_btn2">2</string>
+    <string name="string_btn3">3</string>
+    <string name="string_btn0">0</string>
+    <string name="string_btnCom">,</string>
+    <string name="strRes">0</string>
+</resources>
